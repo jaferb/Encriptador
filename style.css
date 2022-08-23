@@ -1,0 +1,127 @@
+main{
+    background: url(bg2.jpg);
+}
+
+img{
+    position: absolute;
+    float: none;
+    width: 220px;
+    height: 250px;
+    margin: 60px 800px;
+    border-radius: 5px;
+}
+
+div{
+    width: 90%;
+    text-align: center;
+    margin: auto;
+}
+
+div li{
+    background-image: url();
+    display: inline-block;
+    vertical-align: top;
+    text-align: center;
+    width: 40%;
+    margin-top: 50px;
+    box-sizing:content-box;
+    margin-bottom: 20px;
+}
+
+div ul li{
+    text-align: center;
+}
+.button1{
+    width: 100x;
+    height: 25px;
+    font-weight: bold;
+    font-size: 16px;
+    box-sizing: content-box;
+    border-radius: 20px;
+    background-color:gold;
+}
+
+.button2{
+    width: 100x;
+    height: 25px;
+    font-weight: bold;
+    font-size: 16px;
+    box-sizing: content-box;
+    border-radius: 20px;
+    background-color:gold;
+}
+
+.txt1{
+    color: black;
+    font-family:Georgia, 'Times New Roman', Times, serif;
+    width: 450px;
+    height: 280px;
+    border-radius: 10px;
+    font-size: 30px;
+    background-color:cornsilk;
+    border: solid 5px #FC5185;
+    transition: border-width 0.6s linear;
+}
+
+.txt{
+    width: 350px;
+    height: 280px;
+    border-radius: 10px;
+    font-size: 30px;
+    border: solid 2px #FC5185;
+    transition: border-width 0.6s linear;
+
+}
+
+.txt1:hover{
+border-color:red;
+background-color: aquamarine;
+border-width: 8px;
+}
+
+#button:hover{
+    color:darkmagenta;
+    font-size: 18px;
+}
+
+#button2:hover{
+    color:darkmagenta;
+    font-size: 18px;
+}
+
+.intercambiar {
+    width: 100x;
+    height: 25px;
+    font-weight: bold;
+    font-size: 16px;
+    box-sizing: content-box;
+    margin-bottom: 60px;
+    border-radius: 20px;
+    background-color:brown;
+}
+.p {
+    visibility: hidden;
+}
+
+#minusculas {
+    margin: 2px auto;
+    width: 300px;
+    box-sizing: content-box;
+    color: red;
+    background-color: white;
+}
+
+#minusculas:hover {
+    color:blue;
+}
+
+footer{
+    color: aliceblue;
+    text-align: center;
+    background-image: url(banner/footer.jpg);
+    height: 110px;
+    width: auto;
+}
+footer p{
+    padding: 40px;
+}

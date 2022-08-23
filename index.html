@@ -1,0 +1,47 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Encriptador de texto</title>
+    <link rel="stylesheet" href="reset.css">
+    <link rel="stylesheet" href="style.css">    
+    
+</head>
+<body>
+    <header></header>
+    <main>
+    <img src="robot.gif" alt=""; id="img">
+    <div>
+        <ul>
+            <li>
+                <textarea class="txt1" id="texto" placeholder="Escribe un texto aquí" ></textarea>
+                <br>
+                <p id="minusculas">&#x24D8; Solo utilice minúsculas sin acento</p>
+                <button class="button1" id="desencriptar" onclick="desencriptador()">Desencriptar</button>
+                <button class="button1" id="encriptar" onclick="encriptador()">Encriptar</button>
+            </li>        
+        
+        
+            <li>
+                <textarea class="txt" id="textoResultado" readonly></textarea>
+                <br>
+                <p class="p">Aquí se muestra el texto de salida</p>
+                <button class="button2" id="button" onclick="copiar()" id="botonCopiar">Copiar</button>
+                
+            </li>
+        <br>
+        <button class="intercambiar" id="button" onclick="intercambiarTexto()">Intercambiar</button>
+        </ul>
+    </div>
+
+    </main>
+    <footer>
+        <p>&copy; JaFer Works - 2022</p>
+    </footer>
+
+    <script src="script.js"></script>
+    
+</body>
+</html>
